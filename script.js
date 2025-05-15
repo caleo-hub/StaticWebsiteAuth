@@ -156,7 +156,7 @@ function handleNewMessage(userMessage) {
     }, 500);
 
     // Envia a requisição para a API
-    fetch('https://faqvale-vectorstore.azurewebsites.net/api/chatbotapi', {
+    fetch('https://safechatbot.azurewebsites.net/api/chatbotapi', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
